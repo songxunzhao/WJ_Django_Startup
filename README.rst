@@ -38,13 +38,22 @@ python manage.py test
 API Lists
 -----------
 API base URL is ~/api/
+
 * Create a company  
-```text
+```
 POST companies/  
 ```
+
 Example request:
-```json
-{"name": "blabla", "locality": "blabla", "city": 1, "state": 1, postal_code: "111111"}
+
+```
+{
+"name": "blabla", 
+"locality": "blabla", 
+"city": 1, 
+"state": 1, 
+"postal_code": "111111"
+}
 ```
 
 * Retrieve a company  
@@ -62,21 +71,22 @@ Example request:
 ```
 
 * Delete a company  
-```text
+```
 DELETE companies/{pk}  
 ```
 
 * Get a company with name  
-```text
+```
 GET companies/?name={name}
 ```
+
 * Get companies with city  
-```text
+```
 GET companies/?city_id={city id}
 ```
 
 * Get postal codes with more than X of companies in it.  
-```text
+```
 GET postal_codes/?num_companies={X}
 ```
 
