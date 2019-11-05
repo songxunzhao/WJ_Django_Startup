@@ -1,8 +1,10 @@
-# Django Test Project By Zhao SongXun
+Django Test Project By Zhao SongXun
+=============
 
 This project was created only for testing purpose by Zhao SongXun.
 
-## Installation
+Installation
+------------
 
 First, prepare your python virtual environment and activate.
 
@@ -21,7 +23,8 @@ Install all required packages and you are ready to go!
 pip install -r requirements/default.txt
 ```
 
-## Usage
+Usage
+-----
 Once your virtual environment is ready, you can run django project.
 ```bash
 python manage.py runserver 0.0.0.0:8000
@@ -32,7 +35,8 @@ You can also run test using the following command.
 python manage.py test
 ```
 
-## API Lists
+API Lists
+-----------
 API base URL is ~/api/
 * Create a company  
 ```text
@@ -76,6 +80,7 @@ GET companies/?city_id={city id}
 GET postal_codes/?num_companies={X}
 ```
 
-## Prerequisites
+Prerequisites
+-----------
 Make sure you installed following prerequisites on your test machine
 * Python >3.0
