@@ -57,7 +57,7 @@ Example request:
 ```
 
 * Retrieve a company  
-```text
+```
 GET companies/{pk}
 ```
 
@@ -65,7 +65,9 @@ GET companies/{pk}
 ```
 PUT companies/{pk}  
 ```
+
 Example request:
+
 ```json
 {"name": "blabla", "locality": "blabla", "city": 1, "state": 1, postal_code: "111111"}
 ```
